@@ -18,5 +18,9 @@ int main()
     scanf("%d", &userInput);
     printf("You entered: %d\n", userInput);
 
+    // Casting
+    float floatValue = (float)userInput;
+    printf("Float value: %.2f\n", floatValue);
+
     return 0;
 }
