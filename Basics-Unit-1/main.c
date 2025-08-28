@@ -22,5 +22,9 @@ int main()
     float floatValue = (float)userInput;
     printf("Float value: %.2f\n", floatValue);
 
+    // Precedence
+    int result = 10 + 5 * 2;
+    printf("Value of result: %d\n", result);
+
     return 0;
 }
